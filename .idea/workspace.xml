@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8808b541-eb77-4ddc-ae9a-35961eda4341" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/app/[[...id]].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/app/[[...id]].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/logo.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,6 +25,7 @@
           <entry key="eslintrc" value="1" />
           <entry key="local" value="1" />
           <entry key="ts" value="4" />
+          <entry key="tsx" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -34,41 +33,37 @@
           <entry key=".env file" value="1" />
           <entry key="JSON" value="1" />
           <entry key="TypeScript" value="4" />
+          <entry key="TypeScript JSX" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="13" />
-          <entry key="tsx" value="2" />
+          <entry key="tsx" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="13" />
-          <entry key="TypeScript JSX" value="2" />
+          <entry key="TypeScript JSX" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/app/[[...id]].tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/api/preview.ts">
           <provider selected="true" editor-type-id="text-editor" />
@@ -82,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/api/folder/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="180">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -94,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/api/auth/[...nextauth].ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="105">
               <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -112,11 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/logo.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +161,7 @@
       <find>setFolders</find>
       <find>NEXT_AUTH</find>
       <find>allF</find>
+      <find>known</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,6 +193,7 @@
         <option value="$PROJECT_DIR$/pages/api/folder/index.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pages/app/[[...id]].tsx" />
+        <option value="$PROJECT_DIR$/components/logo.tsx" />
       </list>
     </option>
   </component>
@@ -195,6 +204,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
@@ -242,6 +259,11 @@
               <item name="production-grade-nextjs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="production-grade-nextjs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -254,7 +276,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\obanb\Desktop\newEra\production-grade-nextjs\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,16 +303,18 @@
       <workItem from="1622725677854" duration="6082000" />
       <workItem from="1622791310754" duration="11165000" />
       <workItem from="1622877199423" duration="6195000" />
+      <workItem from="1622885155015" duration="150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1232000" />
+    <option name="totallyTimeSpent" value="1382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="37" width="1814" height="853" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -306,7 +330,7 @@
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32523617" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32523617" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,35 +353,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/api/doc/[id].ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.local">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/api/auth/[...nextauth].ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -365,8 +367,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/db.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/auth.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/app/[[...id]].tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -374,18 +389,12 @@
     <entry file="file://$PROJECT_DIR$/pages/api/preview.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware/db.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/api/clear-preview.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleware/auth.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/api/folder/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="180">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -393,20 +402,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/app/[[...id]].tsx">
+    <entry file="file://$PROJECT_DIR$/pages/api/auth/[...nextauth].ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/error.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.local">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_app.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#109#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/logo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
