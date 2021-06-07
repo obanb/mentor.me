@@ -72,9 +72,9 @@ export async function getStaticProps({ params, preview }) {
 
   const { content, data } = matter(postFile)
   const mdxSource = await renderToString(content, { scope: data })
-  console.log('SOURCE',mdxSource)
+  console.log('SOURCE', mdxSource)
 
-  return { props: { source: mdxSource, frontMatter: data }}
+  return { props: { source: mdxSource, frontMatter: data } }
 }
 
 export default BlogPost

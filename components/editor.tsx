@@ -48,11 +48,16 @@ const EDITOR_JS_TOOLS = {
 
 const Editor: FC<{ docId: string; content: any }> = ({ content, docId }) => {
   const editor = useRef(null)
+  if (!editor.current) {
+    console.log('EDITOR NUL')
+  }
   const [saving, setSaving] = useState(false)
   const [doneSaving, setDoneSaving] = useState(false)
 
   const save = useThrottleCallback(async () => {
     if (editor.current) {
+      console.log('USE STATE CURR')
+
       const data = await editor.current.save()
 
       setSaving(true)
@@ -72,6 +77,7 @@ const Editor: FC<{ docId: string; content: any }> = ({ content, docId }) => {
   }, 30)
 
   useEffect(() => {
+    console.log('USE EFFECT')
     const editorJs = new EditorJS({
       tools: EDITOR_JS_TOOLS,
       holder: 'editorjs',
