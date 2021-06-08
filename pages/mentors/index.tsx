@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Pane } from 'evergreen-ui'
+import { Autocomplete, Pane, TextInput } from 'evergreen-ui'
 
 import Container from '../../components/container'
 import HomeNav from '../../components/homeNav'
@@ -16,6 +16,25 @@ export default function Mentors({ mentors }) {
         <HomeNav />
       </header>
       <main>
+        <Container>
+          <Autocomplete
+            title="Fruits"
+            onChange={changedItem => console.log(changedItem)}
+            items={['Apple', 'Apricot', 'Banana', 'Cherry', 'Cucumber']}
+          >
+            {props => {
+              const { getInputProps, getRef, inputValue } = props
+              return (
+                <TextInput
+                  placeholder="Fruits"
+                  value={inputValue}
+                  ref={getRef}
+                  {...getInputProps()}
+                />
+              )
+            }}
+          </Autocomplete>
+        </Container>
         <Container>
           {mentors.map((mentor, i) => (
             <MentorPreview mentor={mentor} key={i} />
